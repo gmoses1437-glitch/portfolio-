@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects by Moses Grace Miracle: a portfolio website, a cyber safety awareness blog and a student task manager.">
+  <title>Projects | Moses Grace Miracle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">MG</span>
+        <span class="brand-name">Moses Grace Miracle</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="planner.html">Academic Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="container fade-up">
+        <h1>My Projects</h1>
+        <p>Some of the things I have designed and built while learning web technologies and cyber safety.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Project list">
+      <div class="container grid grid-3">
+
+        <article class="card project-card fade-up">
+          <figure>
+            <img src="project-portfolio.svg" alt="Screenshot of the personal portfolio website with a navigation bar, a photo and text sections" width="600" height="400">
+          </figure>
+          <div class="project-body">
+            <h2 style="font-size:1.25rem">1. My Personal Portfolio Website</h2>
+            <p>This is the website you are reading now. I designed it to show who I am, my education, and my skills. I used HTML for structure, CSS for design, and JavaScript for the planner and contact form.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <a class="btn btn-small" href="index.html" style="margin-top:1.2rem">Visit project</a>
+          </div>
+        </article>
+
+        <article class="card project-card fade-up delay-1">
+          <figure>
+            <img src="project-blog.svg" alt="Illustration of a blog page with a shield and padlock about staying safe online" width="600" height="400">
+          </figure>
+          <div class="project-body">
+            <h2 style="font-size:1.25rem">2. Cyber Safety Awareness Blog</h2>
+            <p>A small blog to teach people how to stay safe online: how to create strong passwords, how to avoid scams, and how to protect their social media accounts.</p>
+            <ul class="tag-list" aria-label="Topics covered">
+              <li>Passwords</li><li>Scams</li><li>Social media</li>
+            </ul>
+            <!-- Simulated link: replace "#" with the real blog address when it is online -->
+            <a class="btn btn-small" href="#" data-simulated style="margin-top:1.2rem">View blog (demo link)</a>
+          </div>
+        </article>
+
+        <article class="card project-card fade-up delay-2">
+          <figure>
+            <img src="project-tasks.svg" alt="Illustration of a task list with ticked and unticked items" width="600" height="400">
+          </figure>
+          <div class="project-body">
+            <h2 style="font-size:1.25rem">3. Student Task Manager App</h2>
+            <p>A simple app where students can add their assignments, mark them as done, and delete them when finished. It helps students to stay organised. A working version is on my Academic Planner page.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>JavaScript</li><li>Arrays</li><li>Functions</li>
+            </ul>
+            <a class="btn btn-small" href="planner.html" style="margin-top:1.2rem">Try the planner</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year>2026</span> Moses Grace Miracle &middot; Cyber Security &middot; MIVA Open University</p>
+      <p>COS 106 &ndash; Introduction to Web Technologies Term Project</p>
+    </div>
+  </footer>
+</body>
+</html>

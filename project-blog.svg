@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img">
+  <rect width="600" height="400" fill="#16345a"/>
+  <rect x="40" y="36" width="520" height="328" rx="14" fill="#f4f7fb"/>
+  <rect x="40" y="36" width="520" height="52" rx="14" fill="#0f2540"/>
+  <rect x="40" y="70" width="520" height="18" fill="#0f2540"/>
+  <rect x="64" y="54" width="150" height="14" rx="7" fill="#f4b13e"/>
+  <rect x="440" y="54" width="96" height="14" rx="7" fill="#0ea5a4"/>
+  <!-- shield -->
+  <path d="M170 120l80 28v62c0 46-34 76-80 94-46-18-80-48-80-94v-62z" fill="#0ea5a4"/>
+  <path d="M170 142l58 20v48c0 34-24 56-58 70-34-14-58-36-58-70v-48z" fill="#0f2540"/>
+  <rect x="146" y="188" width="48" height="38" rx="7" fill="#f4b13e"/>
+  <path d="M155 188v-12a15 15 0 0 1 30 0v12" fill="none" stroke="#f4b13e" stroke-width="7"/>
+  <circle cx="170" cy="204" r="5" fill="#0f2540"/>
+  <rect x="167" y="206" width="6" height="12" rx="2" fill="#0f2540"/>
+  <!-- article lines -->
+  <rect x="300" y="122" width="220" height="16" rx="8" fill="#0f2540"/>
+  <rect x="300" y="152" width="236" height="9" rx="4.5" fill="#c3d0de"/>
+  <rect x="300" y="170" width="210" height="9" rx="4.5" fill="#c3d0de"/>
+  <rect x="300" y="188" width="226" height="9" rx="4.5" fill="#c3d0de"/>
+  <rect x="300" y="222" width="70" height="26" rx="13" fill="#e2f6f5"/><text x="335" y="239" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#0b7f7e">Passwords</text>
+  <rect x="378" y="222" width="52" height="26" rx="13" fill="#e2f6f5"/><text x="404" y="239" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#0b7f7e">Scams</text>
+  <rect x="300" y="276" width="236" height="52" rx="10" fill="#fff" stroke="#dde5ee" stroke-width="2"/>
+  <text x="318" y="298" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0f2540">Tip: use a long, unique</text>
+  <text x="318" y="316" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0f2540">password for each account.</text>
+</svg>

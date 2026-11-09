@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive academic planner to add, complete and delete school tasks.">
+  <title>Academic Planner | Moses Grace Miracle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">MG</span>
+        <span class="brand-name">Moses Grace Miracle</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html" aria-current="page">Academic Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="container fade-up">
+        <h1>My Academic Planner</h1>
+        <p>My Academic Planner helps me to plan my school work.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="how-title">
+      <div class="container two-col wide-left">
+
+        <div class="card planner-card" style="max-width:none">
+          <h2 id="how-title">My Tasks This Week</h2>
+
+          <form id="task-form" class="task-form" novalidate>
+            <label for="task-input" class="sr-only" style="position:absolute;left:-999px">New task</label>
+            <input type="text" id="task-input" name="task" placeholder="e.g. Read COS 106 Chapter 3" maxlength="120" autocomplete="off">
+            <button class="btn" type="submit">Add Task</button>
+          </form>
+          <p id="task-error" class="error-msg" role="alert"></p>
+
+          <div class="filters" role="group" aria-label="Filter tasks">
+            <button type="button" class="filter-btn active" data-filter="all">All</button>
+            <button type="button" class="filter-btn" data-filter="active">To do</button>
+            <button type="button" class="filter-btn" data-filter="done">Done</button>
+          </div>
+
+          <ul id="task-list" class="task-list" aria-live="polite"></ul>
+
+          <div class="planner-footer">
+            <span id="task-count">0 tasks</span>
+            <button type="button" id="clear-done" class="btn btn-outline btn-small">Clear finished tasks</button>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>How it works</h3>
+          <ol>
+            <li>I type my task, for example <em>Read COS 106 Chapter 3</em>.</li>
+            <li>I click <strong>Add Task</strong>.</li>
+            <li>When I finish it, I tick it to mark it as done.</li>
+            <li>If I don't need it again, I click <strong>Delete</strong>.</li>
+          </ol>
+          <p style="color:var(--muted);font-size:.92rem">This planner uses JavaScript arrays and functions to add, display and delete tasks. Your tasks are saved in this browser, so they are still here when you come back.</p>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year>2026</span> Moses Grace Miracle &middot; Cyber Security &middot; MIVA Open University</p>
+      <p>COS 106 &ndash; Introduction to Web Technologies Term Project</p>
+    </div>
+  </footer>
+</body>
+</html>

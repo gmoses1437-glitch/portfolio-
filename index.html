@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio and academic planner of Moses Grace Miracle, a Cyber Security student at MIVA Open University.">
+  <title>Home | Moses Grace Miracle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">MG</span>
+        <span class="brand-name">Moses Grace Miracle</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Academic Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero: name, photograph, welcome message -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="fade-up">
+          <span class="eyebrow">Cyber Security Student &middot; MIVA Open University</span>
+          <h1 id="hero-title">Hello, I am <span>Moses Grace Miracle</span></h1>
+          <p>Welcome to my portfolio website. This website is about me, my school work, my projects, and my academic planner. I built it with HTML, CSS, and JavaScript, and it works on both phone and laptop.</p>
+          <div class="hero-actions">
+            <a class="btn" href="about.html">More about me</a>
+            <a class="btn btn-outline" href="projects.html">See my projects</a>
+          </div>
+        </div>
+        <figure class="photo-frame fade-up delay-2">
+          <img src="profile-full.jpg" alt="Portrait of Moses Grace Miracle smiling" width="440" height="892">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Brief biography -->
+    <section class="section" aria-labelledby="bio-title">
+      <div class="container two-col wide-left">
+        <div>
+          <h2 id="bio-title">A short biography</h2>
+          <p>I am a Cyber Security student at MIVA Open University. I am from Benue State and currently based in Abuja. I am passionate about computers and protecting people online, and I am hardworking, curious, and I love learning new things.</p>
+          <p>My goal is to become a Cyber Security Analyst or an Ethical Hacker and help protect people and companies online.</p>
+          <a class="btn btn-outline" href="about.html">Read my full story</a>
+        </div>
+        <aside class="card" aria-label="Quick facts">
+          <h3>Quick facts</h3>
+          <ul class="check-list">
+            <li>Department: Cyber Security</li>
+            <li>School: MIVA Open University</li>
+            <li>Level: 100 Level</li>
+            <li>Based in Abuja, Nigeria</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Explore the site -->
+    <section class="section section-alt" aria-labelledby="explore-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="explore-title">Explore my website</h2>
+          <p>Everything you need to know about me and my academic journey is just one click away.</p>
+        </div>
+        <div class="grid grid-4">
+          <a class="card link-card" href="about.html">
+            <span class="icon" aria-hidden="true">&#128100;</span>
+            <h3>About Me</h3>
+            <p>My education, skills, hobbies and career goals.</p>
+          </a>
+          <a class="card link-card" href="projects.html">
+            <span class="icon" aria-hidden="true">&#128187;</span>
+            <h3>Projects</h3>
+            <p>Websites and apps I have designed and built.</p>
+          </a>
+          <a class="card link-card" href="planner.html">
+            <span class="icon" aria-hidden="true">&#9989;</span>
+            <h3>Academic Planner</h3>
+            <p>Add, finish and delete my school tasks.</p>
+          </a>
+          <a class="card link-card" href="contact.html">
+            <span class="icon" aria-hidden="true">&#9993;</span>
+            <h3>Contact</h3>
+            <p>Send me a message through the contact form.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Multimedia: audio -->
+    <section class="section" aria-labelledby="audio-title">
+      <div class="container">
+        <div class="card audio-card">
+          <div>
+            <h2 id="audio-title">A little welcome</h2>
+            <p>Press play to hear a short welcome chime from my portfolio.</p>
+          </div>
+          <audio controls preload="none">
+            <source src="welcome-chime.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year>2026</span> Moses Grace Miracle &middot; Cyber Security &middot; MIVA Open University</p>
+      <p>COS 106 &ndash; Introduction to Web Technologies Term Project</p>
+    </div>
+  </footer>
+</body>
+</html>
